@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(/Recursos/FOTO-GOOGLE-APPS-ANDROID.png);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.header {
+    margin-top: 20px;
+}
+.header h1 {
+    font-size: 50px;
+    margin: 0;
+    color: #8a7958;
+}
+.header h2 {
+    font-size: 20px;
+    margin: 0;
+    color: #8a7958;
+    
+}
+.content {
+    display: flex;
+    margin-top: 20px;
+    width: 80%;
+}
+.left-panel {
+    background-color: #643f7e;
+    padding: 20px;
+    width: 30%;
+}
+.left-panel h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+.left-panel p {
+    font-size: 16px;
+}
+.right-panel {
+    background-color: #333;
+    padding: 20px;
+    width: 70%;
+}
+.code {
+    background-color: #313131;
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+.images div {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+.images img {
+    width: 100%;
+    height: auto;
+}
+ 
+.images{ background-color: #ffffff;
+text-align: left;
+text-decoration-color: blue;
+}
+
+
+  
+ 
